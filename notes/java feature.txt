@@ -1,0 +1,22 @@
+Java11
+
+Java ? 
+Platform independent
+open source
+Object - oriented Programming 
+
+Free form , 
+	obfuscation
+	encoding 
+	encryption
+
+blocks
+instant compilation - eclipse
+
+keyword - predefined meaning
+variable 
+constant - use final 
+
+naming convention 
+[a-zA-Z$_]
+
