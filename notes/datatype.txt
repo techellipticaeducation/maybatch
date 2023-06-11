@@ -15,3 +15,24 @@ bit
 2 power 10
 
 1 byte = 8 bits
+
+How to swap 2 values
+
+A = 10;
+B = 7;
+
+A=A+B ,  A = 17, B = 7
+B=A-B ,  A = 17, B = 10
+A=A-B ,  A = 7 , B = 10
+
+A=A*B ,  A = 70, B = 7
+B=A/B ,  A = 70, B = 10
+A=A/B ,  A = 7 , B = 10
+
+C = A , A = 10, B = 7 , C = 10
+A = B , A = 7, B = 7 , C = 10
+B = C , A = 7, B = 10, C = 10
+
+
+// B = 10 and A = 7
+
