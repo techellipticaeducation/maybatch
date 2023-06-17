@@ -9,6 +9,9 @@ public class OperatorDemo {
 //		/
 //		%
 		
+		// * / %   ==  multiplicative (left to right)
+		// +  -    == addition 
+		
 		int i = 10;
 		int j = 7;
 		
@@ -19,12 +22,12 @@ public class OperatorDemo {
 		System.out.println((float)i/(float)j); // 1.4
 		System.out.println(i%j); // 3
 
+		//BODMAS
+		// 3 % 6 * 4     =  
+		// 3 * 4 =  12
 		
-		// odd % 2 = 1
-		// even % 2 = 0
-
-		// 
-		
+		// 3 * 6 % 4 
+		// 18 % 4 = 2
 		
 	}
 }
