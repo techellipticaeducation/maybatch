@@ -1,0 +1,79 @@
+Object Oriented approach
+
+hotel
+
+pantry
+ kitchen
+ menu
+ service
+ breakfast
+ lunch
+
+billing
+ 
+ 
+room clean
+ 
+ 
+ Top down approach - thoughts idea  
+ bottom - up approach - development , implemention
+
+
+
+
+
+create a Car
+
+	Wheel
+	  wheelcolor
+	  
+	gear
+	  automaticgear
+	  manualgear
+	  
+	carbody
+	 sedan
+	 hatchback
+	 SUV
+ 
+	engine
+		tubro
+		xyz
+	
+ 
+ 
+ 
+ 
+
+
+Object 
+
+Characteristic
+behaviour
+
+ball pen = color, height, name
+behaviour = write 
+
+ball pen = refill  + pen body + cap
+one object can be created from n number of object
+Human
+
+Characteristic - height, age, name, weight
+Behaviour  = speak , walk
+
+Human = head + leg + hand
+
+
+10 entity 
+object - char + behavour
+
+class - template, 
+
+
+instance
+static 
+
+object / memory
+
+
+
