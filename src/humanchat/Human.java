@@ -3,7 +3,7 @@ package humanchat;
 public class Human {
 
 	String name;
-	static String country;
+	String country;
 	int age;
 	int height; 
 	
