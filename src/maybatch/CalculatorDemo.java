@@ -41,6 +41,8 @@ class Calculator{
 	// can we overload main method ? 
 	// Array and String
 	
+	// camel case naming
+	
 	int i;
 	static int k;
 	
@@ -53,7 +55,7 @@ class Calculator{
 		return i+j;
 	}
 	
-	static int sum(int i ,int j, int k) {
+	static int sumOfThreeValue(int i ,int j, int k) {
 		return i+j+k;
 	}
 	
