@@ -6,9 +6,21 @@ public class Human {
 	String country;
 	int age;
 	int height; 
+	int vaibhav;
 	
-	int j = i;
-	static int i = 10;
+	
+	Human(String name1, int age1){
+		name = name1;
+		age = age1;
+	}
+	Human(String name, String country,
+			int age, int height){
+		this.name = name;
+		this.country = country;
+		this.age = age;
+		this.height = height;
+		
+	}
 	
 	
 	 // Instance variable /object variable - object creation ke time per bante hian 

@@ -21,8 +21,9 @@ public static void main(String[] args) {
 	String emp6 = "Pune";
 	
 	
-	
-	
+	String st = new String("abcd");
+	System.out.println(st);
+
 }
 
 
