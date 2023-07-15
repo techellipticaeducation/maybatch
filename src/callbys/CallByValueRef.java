@@ -2,12 +2,19 @@ package callbys;
 
 public class CallByValueRef {
 
-	
+	public static void m1(Integer in) {
+		in = 10;
+	}
 	
 	
 	public static void main(String...args) {
 		
+		Integer h = new Integer(20);
+		m1(h);
+		System.out.println(h);
+		
 		Calculator calc = new Calculator();
+		
 		
 		
 //		int i = 10;
