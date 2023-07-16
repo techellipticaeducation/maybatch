@@ -2,7 +2,7 @@ package inheri;
 
 public class InheritanceDemo {
 	public static void main(String[] args) {
-		B b1 = new B();
+		C b1 = new C();
 		b1.m2();
 	}
 }
@@ -12,14 +12,19 @@ class A{
 	public A() {
 		System.out.println("i am a construtor");
 	}
-	
+	public A(int i) {
+		System.out.println("i am a param construtor with "+i);
+	}
 	public void m1() {
 		System.out.println("hello");
 	}
 }
-
+// You cannot use super() and this() together in a constructor calls
 class B extends A{
 	public B() {
+		super(10);
+		// this must be the first statement in constructor
+		// super must be the  first statement in constructor
 		System.out.println("i am b construtor");
 	}
 	public void m2() {
