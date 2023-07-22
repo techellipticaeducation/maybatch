@@ -7,8 +7,7 @@ public class InheritanceDemo {
 	}
 }
 // Constructor chain
-class A{
-	
+class A{	
 	public A() {
 		System.out.println("i am a construtor");
 	}
