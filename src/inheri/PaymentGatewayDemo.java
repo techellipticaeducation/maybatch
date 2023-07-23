@@ -16,10 +16,8 @@ public class PaymentGatewayDemo {
 		}else if(bank.equals("SBI")) {
 			gateway= new SBI();
 		}
-		
 		int process = gateway.processingFee();
-		System.out.println(process);
-		
+		System.out.println(process);		
 		System.out.println("Total amount charged :  " + (amount+process));
 	}
 }
