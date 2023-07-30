@@ -16,8 +16,6 @@ public class Session1 {
 		
 		
 		
-		// xpath,css
-		
 //		for(int i = 1 ; i < 3 ;i++) {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
