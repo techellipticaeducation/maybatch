@@ -11,7 +11,6 @@ public class NegativeTestCase extends TestCaseBase{
 	}
 	
 	public void test_verify_no_username_error_msg() {
-		
 		setupTestcase();
 		login.login( "", "");
 		String status = login.verifyErrorMsg("Epic sadface: Username is required") ? "Pass":"Fail";
