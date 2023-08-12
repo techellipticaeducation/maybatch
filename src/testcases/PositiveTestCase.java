@@ -1,4 +1,4 @@
-package selenium1;
+package testcases;
 
 
 public class PositiveTestCase extends TestCaseBase{

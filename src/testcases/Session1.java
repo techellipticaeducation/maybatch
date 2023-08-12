@@ -1,4 +1,4 @@
-package selenium1;
+package testcases;
 
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
