@@ -1,7 +1,12 @@
 package module;
 
-import org.openqa.selenium.WebDriver;
+import java.time.Duration;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import actions.BrowserActions;
 import pageobjects.LoginPageObject;
 
 public class LoginModule {
@@ -13,9 +18,11 @@ public class LoginModule {
 	
 	
 	public  void login( String username, String password) {
-		driver.findElement(LoginPageObject.txt_username).sendKeys(username);	
-		driver.findElement(LoginPageObject.txt_password).sendKeys(password);
-		driver.findElement(LoginPageObject.btn_login).click();
+		// Explicit Wait
+		BrowserActions.enterText(driver, LoginPageObject.txt_username, username);
+		BrowserActions.rightClick(driver, LoginPageObject.txt_username);
+		BrowserActions.enterText(driver, LoginPageObject.txt_password, username);
+		BrowserActions.click(driver, LoginPageObject.btn_login);
 
 	}
 	
