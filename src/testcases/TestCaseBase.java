@@ -16,7 +16,7 @@ public class TestCaseBase {
 
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		
 		// Hard Code -> Thread.sleep 
 		// implicitWait -> 30 Sec max , no such element found

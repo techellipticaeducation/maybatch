@@ -20,7 +20,7 @@ public class LoginModule {
 	public  void login( String username, String password) {
 		// Explicit Wait
 		BrowserActions.enterText(driver, LoginPageObject.txt_username, username);
-		BrowserActions.rightClick(driver, LoginPageObject.txt_username);
+		//BrowserActions.rightClick(driver, LoginPageObject.txt_username);
 		BrowserActions.enterText(driver, LoginPageObject.txt_password, username);
 		BrowserActions.click(driver, LoginPageObject.btn_login);
 
