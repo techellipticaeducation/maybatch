@@ -22,8 +22,7 @@ public class BrowserActions {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(elem));
 		driver.findElement(elem).sendKeys(textToEnter);
-		System.out.println("Logger - enterText event for " +elem);
-		
+		System.out.println("Logger - enterText event for " +elem);		
 	}
 	
 	public static void click(WebDriver driver, By elem) {
